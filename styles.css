@@ -1,0 +1,505 @@
+
+
+/* ==========================================================================
+   reset css
+   ========================================================================== */
+
+.light-logo, .light-header .dark-logo{
+	    max-width: 90px;
+	     display: inline-block;
+}
+
+.vc_tta-tab .vc_active{
+	    margin: 200px
+}
+
+.light-logo{
+	display: none;
+}
+
+.cart-trigger{
+	display: none;
+}
+
+.search-btn{
+	display: none;
+}
+.widget-right{
+	display: none;
+}
+.light-header .light-logo{
+	display: none;
+}
+
+header{
+	background-color: white;
+	    max-height: 90px;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+/* ==========================================================================
+   Main menu
+   ========================================================================== */
+
+.main-nav #menu-main-menu a{
+	color: black;
+}
+
+
+.main-nav .active{
+	color: blue;
+}
+
+
+
+
+/* ==========================================================================
+
+   ========================================================================== */
+
+.service-selection li img{
+  max-width: 80px;
+  max-height: 70px;
+  margin-bottom: 10px;
+}
+.service-selection{
+  padding: 25px 0px 25px 0px;
+}
+.service-selection-tab a{
+  color: black;
+}
+
+.service-selection-tab img{
+  display: block;
+  margin: 0 auto;
+}
+
+.service-selection-tab span{
+      font-weight: lighter;
+}
+
+
+.tab-content{
+  height: 900px;
+  color: black;
+}
+.text-container{
+  color: #fff;
+}
+.tab-pane{
+  height:100%;
+}
+
+.carousel-indicators{
+  display: none;
+}
+
+.active .show span{
+  font-weight: 500;
+  border: 2px solid #D84728;
+  padding: 2px 9px;
+  border-radius: 20px;
+  color: #D84728;
+  -webkit-transition: all 0.1s;
+-moz-transition: all 0.1s;
+-o-transition: all 0.1s;
+-ms-transition: all 0.1s;
+transition: all 0.1s;
+}
+
+.text-content{
+  text-align: left;
+  color: white;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.text-content p{
+  font-weight: light;
+}
+
+.btn-light{
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  padding: 7px 14px;
+  border-radius: 36px;
+  font-size: 14px;
+  border: 2px solid white;
+}
+
+.btn-light:hover{
+  background-color: white;
+  color: #D84728;
+  font-weight: 500;
+}
+
+body .wpb_row{
+	padding: 0px;
+}
+
+#main.site-main.container{
+    max-width: none !important;
+    padding: 0px !important;
+}
+
+span.inner-menu::after{
+	display: none;
+}
+
+
+/*arrow styling
+*/
+
+
+
+
+/* ==========================================================================
+   Arrow styling
+   ========================================================================== */
+
+
+.tab-content .arrow-left{
+    width: 11px;
+    height: -9px;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid #1D2127;
+    position: relative;
+    left: -40px;
+    top: unset;
+}
+
+
+.tab-content .arrow-right{
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid #1D2127;
+    height: -9px;
+    position: absolute;
+    right: -20px;
+    z-index: 99;
+}
+
+
+.camera-half-2{
+  background-color: #D84728;
+}
+.service-selection-container{
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url(../_img/service-background.jpg);
+}
+.camera-container img{
+    max-height: 325px;
+  }
+
+.service-text-content{
+  margin: 0 auto;
+text-align: left;
+}
+
+.text-block{
+    background-color: rgba(28, 33, 39, 1);
+    display: flex;
+    align-items: center;
+}
+
+.tab-content .text-content p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+}
+
+.tab-content .text-content h2{
+	font-size: 35px;
+    font-weight: 800;
+}
+
+
+/* ==========================================================================
+   Camera
+   ========================================================================== */
+
+
+.camera{
+  background: url("http://developer-website.org/wp-content/uploads/2018/07/camera-bg.jpg") no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+ .text-content img{
+ 	    max-width: 86px;
+ }
+
+  .text-content .camera-icon {
+  	    text-align: center;
+  }
+   .text-content h2{
+   	  font-weight: 700;
+      color: white;
+      /*font-family: 'Open Sans Condensed', sans-serif;*/
+      font-family: 'Roboto', sans-serif;
+      font-weight: 800;
+      margin: 76px 0px 6px 0px;
+   }
+
+/* ==========================================================================
+   Card Access
+   ========================================================================== */
+
+.card-access{
+  background: url("http://developer-website.org/wp-content/uploads/2018/07/card-access-bg.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.card-access-icon{
+	text-align: center;
+    font-size: 70px;
+}
+
+.card-access-content h2{
+	margin: 48px 0px 6px 0px;
+}
+/* ==========================================================================
+   Security Access
+   ========================================================================== */
+
+.security-access{
+  background: url("http://developer-website.org/wp-content/uploads/2018/07/security-monitoring-bg.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.monitor-icon{
+	text-align: center;
+    font-size: 70px;
+}
+
+/* ==========================================================================
+   Fire Alarm
+   ========================================================================== */
+
+
+.fire-alarm{
+  background: url("http://developer-website.org/wp-content/uploads/2018/07/firealarm-bg.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+@media (min-width: 1200px){
+header .container {
+    width: 1800px;
+}
+}
+
+.main-nav > .menu > li > a .inner-menu:after{
+top: 25%;
+}
+
+
+/* ==========================================================================
+   About us
+   ========================================================================== */
+
+
+.about-us-section .arrow-down{
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #464648;
+  position: absolute;
+  bottom: -19px;
+  right: 49%;
+}
+
+.about-us-section .section-title{
+  background-color: #464648;
+padding: 50px 0px;
+color: white;
+}
+
+.about-us-section {
+	/* background-color: #eb4839;
+      color: #fff; */
+      height: 850px;
+      overflow: hidden;
+}
+
+.about-us-section .col-md-6 {
+	padding: 0px;
+}
+.arrow-left {
+        width: 11px;
+      height: -9px;
+      border-top: 50px solid transparent;
+      border-bottom: 50px solid transparent;
+      border-right: 50px solid #de3d23;
+      position: relative;
+      left: -22px;
+      top: -55%;
+}
+.about-us-section .col-md-12 {
+	padding-right: 0px;
+}
+.about-us-section h2{
+  font-weight: 700;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 39px;
+}
+.about-us-section img {
+	max-width: 900px;
+	position: relative;
+	left: -166px;
+}
+.about-us-section p {
+  font-size: 15px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  /* margin: 0 auto; */
+  line-height: 1.8;
+}
+.bio-pic {
+  background: url("http://developer-website.org/wp-content/uploads/2018/07/work-car.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  /* margin: 0 auto; */
+  /* background-position-x: 14px;
+  background-position-y: 74px; */
+  background-size: 86%;
+}
+.bio-text-container{
+  background-color: #de3d23;
+}
+.grey-space {
+	margin: 0 auto;
+	height: 0px;
+	width: 200px;
+	border: solid 1px black;
+}
+.bio-pic img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: top;
+}
+
+/* ==========================================================================
+   Contact Us
+   ========================================================================== */
+
+/* .contact-us-section {
+	padding: 56px;
+} */
+
+.contact-us-section .section-title{
+  background-color: #464648;
+  padding: 50px 0px;
+  color: white;
+}
+
+.contact-us-section h2{
+  font-weight: 100;
+letter-spacing: 1px;
+font-size: 30px;
+}
+
+.contact-us-section .arrow-down{
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #464648;
+  position: absolute;
+  bottom: -19px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.form-control {
+	border-radius: 4px;
+}
+.contact-form-side {
+	border-right: 2px solid black;
+}
+.contact-items p {
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 27px;
+}
+.contact-items p i {
+	font-size: 20px;
+	padding-right: 20px;
+}
+.btn-group-lg>.btn, .btn-lg {
+	font-size: 12px;
+}
+.form-control {
+	font-size: 14px;
+}
+.contact-form-container {
+	margin: 0 auto;
+	padding-top: 75px;
+}
+.contact-items {
+	padding-top: 120px;
+}
+.contact-main-container {
+	padding: 70px;
+    height: 850px;
+}
+.map {
+	border-top: 5px solid #D84728;
+	width: 100%;
+	overflow: hidden;
+    height: 250px;
+}
+.btn-group-lg>.btn, .btn-lg{
+	    font-size: 12px;
+    border-radius: 1.3rem;
+}
+.btn.btn-lg, .btn-lg.animated-button:before{
+    padding: 8px 28px;
+    font-size: 12px;
+    border-radius: 29px;
+}
+.form-group{
+	margin-bottom: 19px;
+}
+.btn-danger{
+	color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+iframe {
+	border: 0;
+	margin-top: -150px;
+}
+.wpb_raw_code.wpb_content_element.wpb_raw_html{
+	margin-bottom:0px;
+}
